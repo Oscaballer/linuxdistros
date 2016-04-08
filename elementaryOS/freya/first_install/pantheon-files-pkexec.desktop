@@ -1,0 +1,31 @@
+[Desktop Entry]
+Name=Archivos (root)
+Comment=Browse your files
+Keywords=folder;manager;explore;disk;filesystem;
+GenericName=File Manager
+Exec=pantheon-files-pkexec %U
+Icon=system-file-manager
+Terminal=false
+StartupNotify=true
+Type=Application
+MimeType=x-directory/gnome-default-handler;x-directory/normal;inode/directory;
+Categories=System;Utility;Core;GTK;FileTools;FileManager;
+X-GNOME-Gettext-Domain=pantheon-files
+X-GNOME-UsesNotifications=true
+
+X-Ayatana-Desktop-Shortcuts=WindowNew;Root;AboutDialog
+
+[WindowNew Shortcut Group]
+Name=New _Window
+Exec=pantheon-files-pkexec -n
+TargetEnvironment=Unity
+
+[Root Shortcut Group]
+Name=New Window As _Administrator
+Exec=pantheon-files-pkexec
+TargetEnvironment=Unity
+
+[AboutDialog Shortcut Group]
+Name=About _Files
+Exec=pantheon-files-pkexec --about
+TargetEnvironment=Unity

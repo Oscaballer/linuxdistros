@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Visual Studio Code
+GenericName=Visual Studio Code
+Comment=Visual Studio Code
+Exec=code
+Terminal=false
+Icon=/opt/VSCode-linux-x64/resources/app/resources/linux/code.png
+Type=Application
+Categories=GTK;Development;IDE;
+Version=1.0
