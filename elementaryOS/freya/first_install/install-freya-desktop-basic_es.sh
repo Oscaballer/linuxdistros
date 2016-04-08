@@ -1,9 +1,13 @@
 #!/bin/bash
-echo "Linuxdistros Script"
+echo "===================================================="
+echo "===================================================="
+echo "LINUXDISTROS SCRIPT"
+echo "===================================================="
+echo "===================================================="
 echo "ElementaryOS Freya - Escritorio Básico Español v0.1"
-echo "=========="
+echo "===================================================="
 echo "Ejecutando Configuración de fuentes de Software, pulsa sobre la pestaña Otro Software y activa todas las casillas llamadas Canonical Parterns (o Socios de Canonical) e Independiente."
-echo "=========="
+echo "===================================================="
 sudo software-properties-gtk
 sudo fuser -vki /var/cache/apt/archives/lock
 sudo dpkg --configure -a
@@ -16,12 +20,12 @@ sudo apt-get install -y vokoscreen system-config-samba synaptic gdebi firefox fi
 sudo cd /tmp
 sudo wget http://wps-community.org/download/dicts/es_ES.zip
 sudo unzip es_ES.zip
-sudo mkdir /opt/kingsoft/wp-office/office6/dicts
+sudo mkdir -p /opt/kingsoft/wp-office/office6/dicts
 sudo mv ./es_ES /opt/kingsoft/wp-office/office6/dicts/
 sudo rm ./es_ES.zip
 firefox http://download.teamviewer.com/download/teamviewer_i386.deb
 firefox http://wps-community.org/downloads
 firefox http://download.ebz.epson.net/dsc/search/01/search/searchChangeLanguage?languageEnglishName=ES
-echo "=========="
+echo "===================================================="
 echo "Finalizado..."
-echo "=========="
+echo "===================================================="
