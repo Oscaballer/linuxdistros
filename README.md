@@ -4,13 +4,13 @@
 
 ### Uso
 
-#### Despues de instalar el sistema operativo puede elegir varias opciones:
+Despues de instalar el sistema operativo puede elegir varias opciones:
 
 #### Elementary OS Freya
 
-* Escritorio Básico en Español
+Escritorio Básico en Español
 
-wget --no-cache -qO- https://github.com/Oscaballer/linuxdistros/raw/master/elementaryOS/freya/first_install/install-freya-desktop-basic_es.sh | sh
+	wget --no-cache -qO- https://github.com/Oscaballer/linuxdistros/raw/master/elementaryOS/freya/first_install/install-freya-desktop-basic_es.sh | sh
 
 ### License
 
