@@ -20,8 +20,8 @@ sudo apt-get install -y vokoscreen system-config-samba synaptic gdebi firefox fi
 sudo cd /tmp
 sudo wget http://wps-community.org/download/dicts/es_ES.zip
 sudo unzip es_ES.zip
-sudo mkdir -p /opt/kingsoft/wp-office/office6/dicts
-sudo mv ./es_ES /opt/kingsoft/wp-office/office6/dicts/
+sudo mkdir -p /opt/kingsoft/wps-office/office6/dicts
+sudo mv ./es_ES /opt/kingsoft/wps-office/office6/dicts/
 sudo rm ./es_ES.zip
 firefox http://download.teamviewer.com/download/teamviewer_i386.deb
 firefox http://wps-community.org/downloads
