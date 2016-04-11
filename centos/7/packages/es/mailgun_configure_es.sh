@@ -1,10 +1,12 @@
 #!/bin/bash
 #https://gist.githubusercontent.com/jgeewax/2c63810a534197c8a6be/raw/203189bf2b8e6ed26bba227085ff40f5e8f4bfc2/configure-mailgun
 # Configuration for the script
+sudo su
+
 POSTFIX_CONFIG=/etc/postfix/main.cf
 POSTFIX_SASL=/etc/postfix/sasl_passwd
 
-function confirm () {
+function confirm(){
   read -r -p "${1:-Estas segur@? [Y/n]} " response
   if [[ $response == "" || $response == "y"  || $response == "Y" ]]; then
     echo 0;
