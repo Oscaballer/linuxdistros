@@ -31,7 +31,7 @@ CONTINUE=`confirm "Continuar con $SMTP_LOGIN:$SMTP_PASSWORD? [Y/n] "`
 if [[ CONTINUE -ne 0 ]]; 
 then
   echo "Cancelado..."
-  exit;
+  exit 1
 fi
 
 # Set a safe umask
