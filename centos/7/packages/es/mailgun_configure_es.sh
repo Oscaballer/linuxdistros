@@ -27,12 +27,13 @@ fi
 read -r -p "Escriba el Mailgun SMTP login: " SMTP_LOGIN
 read -r -p "Escriba el Mailgun SMTP password: " SMTP_PASSWORD
 
-CONTINUE=`confirm "Continuar con $SMTP_LOGIN:$SMTP_PASSWORD? [Y/n] "`
-if [[ CONTINUE -ne 0 ]]; 
-then
-  echo "Cancelado..."
-  exit 1
-fi
+#CONTINUE=`confirm "Continuar con $SMTP_LOGIN:$SMTP_PASSWORD? [Y/n] "`
+#if [[ CONTINUE -ne 0 ]]; 
+#then
+#  echo "Cancelado..."
+#  exit 1
+#fi
+
 
 # Set a safe umask
 umask 077
