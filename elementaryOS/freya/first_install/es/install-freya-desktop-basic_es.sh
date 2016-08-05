@@ -16,7 +16,7 @@ sudo add-apt-repository ppa:inkscape.dev/stable
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-cache policy inkscape
-sudo apt-get install -y vokoscreen system-config-samba synaptic gdebi firefox firefox-locale-es chromium-browser adobe-flashplugin geany p7zip-full xscreensaver xscreensaver-data-extra typecatcher gparted filezilla audacious inkscape gimp myspell-es usb-creator-gtk lxtask mencoder transmission elementary-tweaks winff aspell-es vlc git
+sudo apt-get install -y vokoscreen system-config-samba synaptic gdebi gnome-search-tool searchmonkey firefox firefox-locale-es chromium-browser adobe-flashplugin geany p7zip-full xscreensaver xscreensaver-data-extra typecatcher gparted filezilla audacious inkscape gimp myspell-es usb-creator-gtk lxtask mencoder transmission elementary-tweaks winff aspell-es vlc git
 sudo cd /tmp
 sudo wget http://wps-community.org/download/dicts/es_ES.zip
 sudo unzip es_ES.zip
